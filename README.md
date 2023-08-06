@@ -1,6 +1,6 @@
 # Subdividing ML Algorithms based on Learning Paradigm and Optimization Technique
 
-Machine Learning (ML) algorithms can be categorized based on the learning paradigm they follow and the optimization techniques used during training. Understanding these subdivisions can help you choose the right algorithm for specific tasks and improve your overall understanding of ML. In this tutorial, we will provide an overview of the two subdivisions, with a specific focus on the optimization techniques: distance-based, tree-based, and gradient-based methods.
+Machine Learning (ML) algorithms can be categorized based on the learning paradigm they follow and the optimization techniques used during training. Understanding these subdivisions can help you choose the right algorithm for specific tasks and improve your overall understanding of ML. In this tutorial, we will provide an overview of the two subdivisions:
 
 ## Subdividing based on Learning Paradigm:
 
@@ -30,8 +30,6 @@ Reinforcement learning is a paradigm where an agent learns to take actions in an
 
 - Q-Learning
 - Deep Q-Networks (DQN)
-- Proximal Policy Optimization (PPO)
-- Actor-Critic methods
 
 ## Subdividing based on Optimization Technique:
 
@@ -41,9 +39,9 @@ Optimization techniques are used to adjust the model's parameters during trainin
 Distance-based methods aim to find optimal solutions by measuring the similarity or dissimilarity between data points. Common distance-based algorithms include:
 
 - k-Nearest Neighbors (k-NN)
-- Locally Weighted Regression (LWR)
+- K-Means Clustering
 - Self-Organizing Maps (SOM)
-- Support Vector Machines (SVM) with kernel methods
+- Support Vector Machines (SVM)
 
 **b. Tree-based Methods:**
 Tree-based methods build decision trees to partition the data and make predictions based on the majority class within each partition. Examples of tree-based algorithms are:
@@ -53,7 +51,6 @@ Tree-based methods build decision trees to partition the data and make predictio
 - Gradient Boosting Machines (GBM)
 - XGBoost
 - LightGBM
-- CatBoost
 
 **c. Gradient-based Methods:**
 Gradient-based methods use gradient information to iteratively optimize the model's parameters and reduce the loss function. Common gradient-based optimization algorithms include:
@@ -61,9 +58,7 @@ Gradient-based methods use gradient information to iteratively optimize the mode
 - Stochastic Gradient Descent (SGD)
 - Mini-batch Gradient Descent
 - Adam (Adaptive Moment Estimation)
-- RMSprop
-- Adagrad
 
 ## Conclusion:
 
-In this tutorial, we've discussed how to subdivide ML algorithms based on the learning paradigm and optimization technique. Specifically, we focused on three optimization technique subdivisions: distance-based, tree-based, and gradient-based methods. By understanding these subdivisions, you can gain insights into the different types of ML algorithms and their underlying optimization principles. Remember that choosing the right algorithm depends on the specific problem you are trying to solve and the nature of your data. Exploring and experimenting with different algorithms is essential to find the best fit for your particular ML task.
+In this tutorial, we've discussed how to subdivide ML algorithms based on the learning paradigm and optimization technique. By understanding these subdivisions, you can gain insights into the different types of ML algorithms and their underlying optimization principles. Remember that choosing the right algorithm depends on the specific problem you are trying to solve and the nature of your data. Exploring and experimenting with different algorithms is essential to find the best fit for your particular ML task.
