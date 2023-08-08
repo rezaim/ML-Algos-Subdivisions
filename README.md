@@ -1,6 +1,6 @@
 # Subdividing ML Algorithms based on Learning Paradigm and Optimization Technique
 
-Machine Learning (ML) algorithms can be categorized based on the learning paradigm they follow and the optimization techniques used during training. Understanding these subdivisions can help you choose the right algorithm for specific tasks and improve your overall understanding of ML. In this tutorial, we will provide an overview of the two subdivisions:
+Machine Learning (ML) algorithms can be categorized based on the learning paradigm they follow and the optimization techniques used during training. Understanding these subdivisions can help you choose the right algorithm for specific tasks and improve your overall understanding of ML. In this tutorial, I will provide an overview of the two subdivisions:
 
 ## Subdividing based on Learning Paradigm:
 
@@ -55,10 +55,13 @@ Tree-based methods build decision trees to partition the data and make predictio
 **c. Gradient-based Methods:**
 Gradient-based methods use gradient information to iteratively optimize the model's parameters and reduce the loss function. Common gradient-based optimization algorithms include:
 
-- Stochastic Gradient Descent (SGD)
-- Mini-batch Gradient Descent
-- Adam (Adaptive Moment Estimation)
+-	Logistic Regression
+-	Support Vector Machines (SVMs)
+-	Neural Networks
+-	Gradient Boosting Machines
+-	Recurrent Neural Networks (RNNs)
+
 
 ## Conclusion:
 
-In this tutorial, we've discussed how to subdivide ML algorithms based on the learning paradigm and optimization technique. By understanding these subdivisions, you can gain insights into the different types of ML algorithms and their underlying optimization principles. Remember that choosing the right algorithm depends on the specific problem you are trying to solve and the nature of your data. Exploring and experimenting with different algorithms is essential to find the best fit for your particular ML task.
+In this tutorial, I have discussed how to subdivide ML algorithms based on the learning paradigm and optimization technique. By understanding these subdivisions, you can gain insights into the different types of ML algorithms and their underlying optimization principles. Remember that choosing the right algorithm depends on the specific problem you are trying to solve and the nature of your data. Exploring and experimenting with different algorithms is essential to find the best fit for your particular ML task.
